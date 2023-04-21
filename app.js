@@ -57,7 +57,7 @@ var createNewTaskElement=function(taskString){
 return listItem;
 }
 
-
+"str".toLowerCase
 
 var addTask=function(){
   console.log("Add Task...");
