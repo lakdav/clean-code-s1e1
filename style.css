@@ -76,10 +76,10 @@ img{
 
 }
 .todo{
-  width:100%;
-  max-width:100%;
-  display:flex;
-  flex-direction:column;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .add-task,
 .incomplete-tasks,
@@ -163,7 +163,7 @@ img{
 }
 .task__input_hidden,
 .task__label_hidden {
- display: none;
+  display: none;
 }
 .completed-tasks__item,
 .incomplete-tasks__item{
