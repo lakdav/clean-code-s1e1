@@ -7,20 +7,20 @@
 
 }
 :root{
-  --bg-white:#f8f8f8;
-  --text-dark:#333;
-  --text-grey:#888;
+  --bg-white: #f8f8f8;
+  --text-dark: #333;
+  --text-grey: #888;
   --font-lato: Lato, sans-serif;
-  --font-fantasy:fantasy, cursive;
-  --fs-body:1.5rem;
+  --font-fantasy: fantasy, cursive;
+  --fs-body: 1.5rem;
 }
 html{
   font-size: 62.5%;
 }
 body {
   font-size: 1.6rem;
-  background-color:var(--bg-white) ;
-  color:var(--text-dark) ;
+  background-color: var(--bg-white) ;
+  color: var(--text-dark) ;
   font-family: var(--font-lato);
 }
 header,
@@ -108,11 +108,11 @@ img{
   cursor: pointer;
   color: var(--text-grey);
 }
+.btn:hover {
+  color: #3a3a3a;
+}
 .btn_theme_edit{
   color: var(--text-grey);
-}
-.btn_edit:hover {
-  color: #3a3A3a;
 }
 .btn__img{
   height: 2em;
@@ -143,6 +143,7 @@ img{
 }
 .task__checkbox {
   margin: 0 1rem;
+  cursor: pointer;
 }
 .task__label,
 .task__input{
