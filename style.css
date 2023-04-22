@@ -108,11 +108,11 @@ img{
   cursor: pointer;
   color: var(--text-grey);
 }
+.btn:hover {
+  color: #3a3A3a;
+}
 .btn_theme_edit{
   color: var(--text-grey);
-}
-.btn_edit:hover {
-  color: #3a3A3a;
 }
 .btn__img{
   height: 2em;
@@ -143,6 +143,7 @@ img{
 }
 .task__checkbox {
   margin: 0 1rem;
+  cursor: pointer;
 }
 .task__label,
 .task__input{

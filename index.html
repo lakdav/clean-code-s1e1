@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700" >
     <link rel="stylesheet" href="style.css"  media="screen" charset="utf-8">
     <title>Todo App</title>
   </head>
+
   <body>
     <header class="header container">
       <figure class="matrix">
@@ -17,7 +19,7 @@
     </header>
     <main class="main container">
       <article aria-label="create task, complit task or delete task" class="todo">
-        <section id="topSectionForAddingElementToList" class="add-task"  aria-label="add task">
+        <section class="add-task"  aria-label="add task">
           <label class="add-task__label heading" for="new-task">Add Item</label>
           <div class="add-task__wrapper">
             <input
@@ -25,7 +27,7 @@
                 class="add-task__input text-input"
                 type="text"
                 >
-            <button  class="btn">Add</button>
+            <button id="add-task"  class="btn">Add</button>
           </div>
         </section>
         <section class="incomplete-tasks">
@@ -34,10 +36,10 @@
             <li class="incomplete-tasks__item">
               <div class="task">
                 <input class="task__checkbox" type="checkbox">
-                <!-- <label class="task__label">Pay Bills</label> -->
+                <label class="task__label">Pay Bills</label>
                 <input
                     type="text"
-                    class="task__input  text-input">
+                    class="task__input task__input_hidden  text-input">
                 <button class="btn btn_theme_edit">Edit</button>
                 <button class="btn btn_theme_delete"><img class="btn__img" src="./remove.svg"></button>
               </div>
@@ -50,7 +52,7 @@
                     type="text"
                     value="Go Shopping"
                     class="task__input task__input_hidden text-input">
-                <button class="btn btn_theme_edit">Save</button>
+                <button class="btn btn_theme_edit">Edit</button>
                 <button class="btn btn_theme_delete"><img class="btn__img" src="./remove.svg"></button>
               </div>
             </li>
@@ -76,4 +78,5 @@
     </main>
     <script src="app.js"></script>
   </body>
+
 </html>
